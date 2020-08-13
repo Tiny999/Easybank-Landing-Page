@@ -18,7 +18,7 @@
 <body>
   <nav id="navbar" class=" navbar navbar-expand-lg navbar-light bg-white">
     <div class="container d-flex justify-content-between">
-      <a class="navbar-brand" href="#"><img src="./images/logo.svg" alt="logo"></a>
+      <a class="navbar-brand" href="#"><img src="./images/logo.svg" alt="logo" id="logo"></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
         aria-label="Toggle navigation">
@@ -100,9 +100,9 @@
   </section>
 
 
-  <div id="articles">
+  <section id="articles">
     <div class="container">
-      <h1 class="mb-5">Latest Articles</h1>
+      <h1 class="mb-4">Latest Articles</h1>
       <div class="row">
         <div class="card col-md-3">
           <img src="./images/image-currency.jpg" alt="currency">
@@ -141,49 +141,50 @@
             <p>After a lot of hard work by the whole team, we’re excited to launch our closed beta. It’s easy to request an invite through the site ...</p>
           </div>
         </div>
-
-
       </div>
     </div>
-  </div>
+  </section>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="row p-5">
+        <div class="identity">
+          <a href="#"><img src="./images/logo-white.svg" alt="logo" id="footer-logo"></a>
+          <div class="social mt-5">
+            <a href="#"><img src="./images/icon-facebook.svg" alt="facebook"></a>
+            <a href="#"><img src="./images/icon-youtube.svg" alt="youtube"></a>
+            <a href="#"><img src="./images/icon-twitter.svg" alt="twitter"></a>
+            <a href="#"><img src="./images/icon-pinterest.svg" alt="pinterest"></a>
+            <a href="#"><img src="./images/icon-instagram.svg" alt="instagram"></a>
+          </div>
+        </div>
+  
+        <ul>
+          <li><a href="#" class="text-white">About Us</a></li>
+          <li><a href="#" class="text-white">Contact</a></li>
+          <li><a href="#" class="text-white">Blog</a></li>
+        </ul>
+
+        <ul>
+          <li><a href="#" class="text-white">Careers</a></li>
+          <li><a href="#" class="text-white">Support</a></li>
+          <li><a href="#" class="text-white">Privacy Policy</a></li>
+        </ul>
+
+        <div id="request">
+          <a href="#" class="btn btn-primary">Request Invite</a>
+          <p class="mt-4">© Easybank. All Rights Reserved</p>
+        </div>
+
+      </div>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/tiny999">Abbas Salami</a>.
+      </div>
+    </div>
+  </footer>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  About Us
-  Contact
-  Blog
-  Careers
-  Support
-  Privacy Policy
-
-  Request Invite
-
-  © Easybank. All Rights Reserved
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="https://github.com/tiny999">Abbas Salami</a>.
-  </div>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
@@ -191,8 +192,6 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
     integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
   </script>
-  < <script src="./js/bootstrap.min.js">
-    </script>
+  <script src="./js/bootstrap.min.js"></script>
 </body>
-
 </html>
