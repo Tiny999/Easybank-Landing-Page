@@ -51,6 +51,11 @@ img{
   background-position-x: 170%;
   background-position-y: -200px;
   height: 80vh;
+  color: hsl(233, 8%, 62%);
+}
+
+#main-header h1{
+  color: hsl(233, 26%, 24%);;
 }
 
 #main-header .container{
@@ -78,7 +83,11 @@ img{
   width: 70px;
 }
 
-#why .card, .card-header{
+#why h1, #why h4{
+  color: hsl(233, 26%, 24%);
+}
+
+.card, .card-header{
   background: inherit;
   border: none;
 }
@@ -95,4 +104,42 @@ img{
 
 #why-content h1{
   margin-bottom: 1rem;
+}
+
+
+/* Article Section */
+#articles{
+  height: 100vh;
+  padding-top: 4rem;
+}
+
+#articles .card img{
+  height: 50%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#articles h1{
+  color: hsl(233, 26%, 24%);
+}
+
+
+#articles .content{
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 1rem;
+}
+
+#articles span{
+  font-size: .7rem;
+  color: hsl(233, 8%, 62%);
+}
+
+#articles h5{
+  color: hsl(233, 26%, 24%);
+  font-weight: 400;
+}
+
+#articles p{
+  color: hsl(233, 8%, 62%);
 }
