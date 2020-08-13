@@ -44,7 +44,6 @@ a, a:hover{
   border: none;
   background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
 }
-
 /* HEADER STYLING */
 #main-header{
   background: url(../images/bg-intro-desktop.svg) no-repeat right;
@@ -61,15 +60,11 @@ a, a:hover{
 
 #main-header .container{
   height: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 #main-header .container img{
   width: 70%;
   position: relative;
-  left: 260px;
   z-index: 1;
 }
 
@@ -140,9 +135,14 @@ a, a:hover{
   color: hsl(233, 8%, 62%);
 }
 
-#articles h5{
+#articles a{
+  display: inline-block;
   color: hsl(233, 26%, 24%);
   font-weight: 400;
+}
+
+#articles a:hover{
+  color: hsl(192, 70%, 51%);
 }
 
 #articles p{
@@ -153,8 +153,10 @@ a, a:hover{
 /* Footer */
 #footer{
   background-color: hsl(233, 26%, 24%);
-
 }
+
+#footer a{ color: #fff ;}
+#footer a:hover{ color: hsl(136, 65%, 51%); }
 
 #footer-logo{
   width: 150px;
@@ -164,6 +166,7 @@ a, a:hover{
   width: 25px;
   margin-right: .5rem;
 }
+.social img:hover{ fill: hsl(136, 65%, 51%); }
 
 #footer .row{
   display: grid;
