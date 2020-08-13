@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Public Sans', sans-serif;
+  background: hsl(0, 0%, 98%);
+  overflow-x: hidden;
+}
+
+img{
+  width: 100%;
+}
+
+/* UTILITY CLASSES */
+.container{
+  padding: 0 1rem;
+}
+
+.navbar{
+  padding: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.nav-item{ 
+  padding: 1rem .5rem;
+  border-bottom: 4px solid #fff;
+  font-weight: 400;
+}
+.active{ border-bottom: hsl(136, 65%, 51%) solid 4px; }
+
+.btn-primary{
+  border-radius: 40px;
+  padding: .5rem 1.5rem;
+  border: none;
+  background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* HEADER STYLING */
+#main-header{
+  background: url(../images/bg-intro-desktop.svg) no-repeat right;
+  background-size: 75%;
+  background-position-x: 170%;
+  background-position-y: -200px;
+  height: 80vh;
+}
+
+#main-header .container{
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#main-header .container img{
+  width: 70%;
+  position: relative;
+  left: 260px;
+  z-index: 1;
+}
+
+/* Why section */
+#why{
+  height: 90vh;
+  background: hsl(220, 16%, 96%);
+  padding-top: 7rem;
+}
+
+#why img{
+  width: 70px;
+}
+
+#why .card, .card-header{
+  background: inherit;
+  border: none;
+}
+
+#why p{
+  font-size: 0.9rem;
+  margin-top: 0.6rem;
+  color: hsl(233, 8%, 62%);
+}
+
+#why-content{
+  margin-bottom: 3rem;
+}
+
+#why-content h1{
+  margin-bottom: 1rem;
+}
